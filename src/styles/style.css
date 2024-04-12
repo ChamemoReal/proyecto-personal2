@@ -1,0 +1,673 @@
+/* Logo de Nintendo Switch (Parte Superior Derecha) */
+.c-head {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.c-head_switch {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80px;
+}
+
+/* Aquí empieza el contenedor de las imagenes y logo del index.html */
+.top-bgFix {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-image: url(https://www.nintendo.com/jp/switch/anvya/pc/assets/images/top/bg_introduction.jpg);
+  background-position: center top;
+  background-size: cover;
+}
+
+.top {
+  background-color: #FFF;
+}
+
+.topV {
+  padding-top: 53.33333%;
+  position: relative;
+  background-image: url(https://www.nintendo.com/jp/switch/anvya/pc/assets/images/top/kv_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.topV.is-noAnime .topV_logo {
+  opacity: 1;
+}
+
+.topV_logo {
+  width: 55.15625%;
+  position: absolute;
+  bottom: 12%;
+  left: 22%;
+  z-index: 5;
+}
+
+.topV_shadow {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+  z-index: 3;
+}
+
+.topV_pers01 {
+  opacity: 0;
+  width: 93.59375%;
+  height: 93.541666666666667vw;
+  position: absolute;
+  top: -18.5%;
+  z-index: 1;
+  background-image: url(https://www.nintendo.com/jp/switch/anvya/pc/assets/images/top/kv_chara01.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: left top;
+}
+
+.topV_pers02 {
+  opacity: 0;
+  width: 134.583333333333333%;
+  height: 115.833333333333333vw;
+  position: absolute;
+  top: -35%;
+  z-index: 1;
+  background-image: url(https://www.nintendo.com/jp/switch/anvya/pc/assets/images/top/kv_chara02.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: left top;
+}
+
+.topV_pers03 {
+  opacity: 0;
+  width: 80.833333333333333%;
+  height: 104.322916666666667vw;
+  position: absolute;
+  top: -35%;
+  z-index: 1;
+  background-image: url(https://www.nintendo.com/jp/switch/anvya/pc/assets/images/top/kv_chara03.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: left top;
+}
+
+.topV_all {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  z-index: 2;
+}
+
+.topV.is-noAnime .topV_all01 {
+  opacity: 1;
+  background-position: left 41% top 18%;
+}
+
+.topV_all>div {
+  width: 33.3333%;
+}
+
+.topV_all01 {
+  background-image: url(https://www.nintendo.com/jp/switch/anvya/pc/assets/images/top/kv_chara01.png);
+  background-repeat: no-repeat;
+  background-size: 93.59375vw;
+}
+
+.topV.is-noAnime .topV_all03 {
+  opacity: 1;
+  background-position: left 60% top 40%;
+}
+
+.topV_all03 {
+  background-image: url(https://www.nintendo.com/jp/switch/anvya/pc/assets/images/top/kv_chara03.png);
+  background-repeat: no-repeat;
+  background-size: 80.833333333333333vw;
+}
+
+.topV.is-noAnime .topV_all02 {
+  opacity: 1;
+  background-position: left 83% top 29%;
+}
+
+.topV_all02 {
+  background-image: url(https://www.nintendo.com/jp/switch/anvya/pc/assets/images/top/kv_chara02.png);
+  background-repeat: no-repeat;
+  background-size: 134.583333333333333vw;
+}
+
+/* Aquí empieza la página de personajes.html */
+.wrapper {
+  min-width: 960px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  font-family: 'Noto Serif JP', serif;
+  min-height: calc(100vh - 40px);
+  background-color: #000;
+}
+
+#container {
+  background-color: gainsboro;
+  background-image: url(https://www.nintendo.co.jp/switch/anvya/pc/assets/images/top/bg_introduction.jpg);
+  color: black;
+}
+
+#container-byleth {
+  color: white;
+  background-color: gainsboro;
+  background-image: url(https://www.nintendo.co.jp/switch/anvya/pc/assets/images/characters/top_bg.jpg);
+  background-repeat: no-repeat;
+}
+
+#container-personajes {
+  color: black;
+  background-color: gainsboro;
+  background-image: url(https://www.nintendo.co.jp/switch/anvya/pc/assets/images/characters/page_bg.png);
+}
+
+/* Aquí empiezan las propiedades generales de personajes.html */
+.Seccion-JefesdeClase {
+  margin: 0 -5.208333%;
+  padding: 39.0625% 0 0;
+  position: relative;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.Seccion-JefesdeClase_main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+/* Todo contenido que incluya el nombre de 'edelgard' se refiere al personaje femenino (rojo) */
+.Seccion-JefesdeClase_block.edelgard {
+  width: 35%;
+}
+
+.Seccion-JefesdeClase_block {
+  display: block;
+  text-decoration: none;
+  -webkit-transform: skewX(10deg);
+  transform: skewX(10deg);
+  background-color: blue;
+  overflow: hidden;
+  position: relative;
+  -webkit-transition: width 0.4s;
+  transition: width 0.4s;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
+  vertical-align: baseline;
+  background: transparent;
+  background-color: transparent;
+}
+
+.Seccion-JefesdeClase_cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.Seccion-JefesdeClase_block.edelgard .Seccion-JefesdeClase_block-inner {
+  background-image: url(https://www.nintendo.com/jp/switch/anvya/pc/assets/images/characters/bg_class1.png);
+}
+
+.Seccion-JefesdeClase_block-inner {
+  width: calc(100% + 7vw);
+  margin-left: -3.5vw;
+  height: 100%;
+  -webkit-transform: skewX(-10deg);
+  transform: skewX(-10deg);
+  position: relative;
+}
+
+.Seccion-JefesdeClase_emblema {
+  position: absolute;
+  top: 0;
+  right: 7vw;
+  width: 16.5625vw;
+  opacity: 0.4;
+}
+
+img {
+  max-width: 100%;
+  width: auto;
+  display: block;
+  max-width: none;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  background: transparent;
+}
+
+.Seccion-JefesdeClase_block.edelgard .Seccion-JefesdeClase_pers {
+  left: -1vw;
+  width: 49.010417vw;
+  max-width: none;
+}
+
+.Seccion-JefesdeClase_pers {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.Seccion-JefesdeClase_block.edelgard .Seccion-JefesdeClase_nombre {
+  width: 16.40625vw;
+  margin-left: -4vw;
+}
+
+.Seccion-JefesdeClase_nombre {
+  width: auto;
+  position: absolute;
+  bottom: 24%;
+  left: 50%;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+.Seccion-JefesdeClase_texto {
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  padding: 3% 0 0;
+  color: #fff;
+  font-size: 1.125em;
+  width: 18.2291666666667vw;
+  line-height: 2.2;
+  background-image: url(https://www.nintendo.com/jp/switch/anvya/pc/assets/images/characters/icon_line.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100%;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-image: none;
+  background-size: auto;
+}
+
+.Seccion-JefesdeClase_block.edelgard .Seccion-JefesdeClase_btn {
+  margin-left: -3vw;
+}
+
+.Seccion-JefesdeClase_btn {
+  display: block;
+  width: 14.0625vw;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  margin-left: -7vw;
+}
+
+span {
+  margin: 0;
+  margin-left: 0px;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* Todo contenido que incluya el nombre de 'dimitri' se refiere al personaje masculino (azul) */
+.Seccion-JefesdeClase_block.dimitri {
+  width: 30%;
+}
+
+.Seccion-JefesdeClase_block.dimitri .Seccion-JefesdeClase_block-inner {
+  background-image: url(https://www.nintendo.com/jp/switch/anvya/pc/assets/images/characters/bg_class2.png);
+}
+
+.Seccion-JefesdeClase_block.dimitri .Seccion-JefesdeClase_pers {
+  right: -15px;
+  width: 54.4791666666667vw;
+  max-width: none;
+}
+
+.Seccion-JefesdeClase_block.dimitri .Seccion-JefesdeClase_nombre {
+  width: 18.59375vw;
+  margin-left: -9.3vw;
+}
+
+/* Todo contenido que incluya el nombre de 'claude' se refiere al personaje masculino (amarillo) */
+.Seccion-JefesdeClase_block.claude {
+  width: 35%;
+}
+
+.Seccion-JefesdeClase_block.claude .Seccion-JefesdeClase_block-inner {
+  background-image: url(https://www.nintendo.com/jp/switch/anvya/pc/assets/images/characters/bg_class3.png);
+}
+
+.Seccion-JefesdeClase.claude .Seccion-JefesdeClase_emblema {
+  right: 10vw;
+}
+
+.Seccion-JefesdeClase_block.claude .Seccion-JefesdeClase_pers {
+  right: 100px;
+  width: 34.2708333333333vw;
+  max-width: none;
+}
+
+.Seccion-JefesdeClase_block.claude .Seccion-JefesdeClase_nombre {
+  width: 16.4583333333333vw;
+  margin-left: -8.2vw;
+}
+
+/* Footer del index.html */
+#pie {
+  padding-top: 30px;
+  padding-bottom: 25px;
+  background-color: black;
+  color: white;
+  position: relative;
+}
+
+/* Barra de navegación general (Parte inferior) */
+.nav {
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+}
+
+.nav_pagetop {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 93.70425%;
+  max-width: 2000px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.nav_pagetop_image {
+  width: 146px;
+  margin-top: -73px;
+  width: 10.68814%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin-top: -5.34407%;
+  cursor: pointer;
+}
+
+.nav_inner::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.nav_inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 93.70425%;
+  max-width: 2000px;
+}
+
+.nav_logo {
+  width: 174px;
+  padding-top: 0.625%;
+  width: 13.59375%;
+  float: left;
+}
+
+.nav_logo a {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+.nav_list {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 79.6875%;
+  max-width: 1020px;
+}
+
+.nav_list>li {
+  width: 20%;
+  position: relative;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.nav_list>li>a::after {
+  display: block;
+  opacity: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #FFF;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition: all 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.nav_list>li>a {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+/* Aquí empieza el recuadro negro difuminado de index.html */
+.topInfo {
+  padding-top: 60px;
+  padding-bottom: 90px;
+}
+
+.topInfo_wrap {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85.9375%;
+  max-width: 1140px;
+  position: relative;
+}
+
+.topInfoSpec {
+  color: #FFF;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.topInfoSpec_wrap {
+  padding-top: 6.1403%;
+  padding-bottom: 6.1403%;
+  width: 87.7192%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topInfoSpec_box:nth-of-type(1) {
+  width: 46%;
+}
+
+.topInfoSpec_body {
+  position: relative;
+}
+
+.topInfoSpec_list {
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.topInfoSpec_list>dt {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 30.4347%;
+  letter-spacing: calc(100 / 1000 *1em);
+}
+
+.topInfoSpec_list>dd::before {
+  display: block;
+  content: "";
+  width: 12px;
+  height: 100%;
+  background-image: url("https://www.nintendo.com/jp/switch/anvya/pc/assets/images/top/ico_spec.png");
+  background-position: left 15px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.topInfoSpec_list>dd {
+  padding-left: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 69.5653%;
+  position: relative;
+}
+
+.topInfoSpec_iconList {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 21.73913%;
+  text-align: right;
+  margin-bottom: 4.3478%;
+}
+
+.topInfoSpec_iconList>li.clasificacion {
+  width: 40%;
+}
+
+.topInfoSpec_iconList>li {
+  display: inline-block;
+}
+
+.top_imageLink {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.topInfoSpec_iconList>li.amiibo {
+  width: 50%;
+}
+
+.topInfoSpec_box:nth-of-type(2) {
+  width: 46%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.topInfoSpec_online {
+  margin-top: 10px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.topInfoSpec_onlineIcon {
+  width: 21.52174%;
+}
+
+.topInfoSpec_onlineText {
+  font-size: 12px;
+  line-height: 1.5;
+  width: 76.08696%;
+}
+
+/* Footer de la página personajes.html */
+#pie2 {
+  padding-top: 30px;
+  padding-bottom: 25px;
+  background-color: black;
+  color: white;
+  position: relative;
+}
+
+#descripcion {
+  color: white;
+}
+
+* {
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap') text-shadow: 2px 2px 5px black;
+  font-family: "Noto Serif JP", serif;
+}

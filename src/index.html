@@ -1,0 +1,176 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html> -->
+<!-- Informa al navegador que tipo de documento va a leer -->
+<!DOCTYPE html>
+
+<!-- Indica el comienzo de nuestro html -->
+<html lang="en">
+<!-- Todo la información que necesite nuestro navegador va aquí -->
+
+<head>
+    <!-- Indicamos el tipo de caracteres va a tener nuestra página -->
+    <meta charset="UTF-8">
+    <!-- Adáptate a cualquier tipo de pantalla -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- El título del documento -->
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Fire Emblem Three Houses</title>
+</head>
+<!-- A partir de aquí empieza la página web -->
+
+<body>
+    <div class="c-head">
+        <div class="c-head_switch">
+            <a href="https://www.nintendo.com/es-mx/switch/">
+                <img src="img/80pxNintendo_Switch_logo.svg.png" alt="Nintendo Switch">
+            </a>
+        </div>
+    </div>
+    <div class="top-bgFix"></div>
+    <div class="top">
+        <div class="topV is-noAnime">
+            <h1 class="topV_logo">
+                <img src="img/FETH_logo.png" alt="FE3H">
+            </h1>
+            <div class="topV_shadow"></div>
+            <div class="topV_pers01"></div>
+            <div class="topV_pers02"></div>
+            <div class="topV_pers03"></div>
+            <div class="topV_all">
+                <div class="topV_all01"></div>
+                <div class="topV_all03"></div>
+                <div class="topV_all02"></div>
+            </div>
+        </div>
+    </div>
+    <div class="topInfo">
+        <div class="topInfo_wrap">
+            <div class="topInfoSpec">
+                <div class="topInfoSpec_wrap">
+                    <div class="topInfoSpec_box">
+                        <div class="topInfoSpec_body">
+                            <!-- <dl> Es una lista descriptiva -->
+                            <dl class="topInfoSpec_list">
+                                <!-- <dt> Especifica un término en una descripción -->
+                                <dt>Idiomas</dt>
+                                <!-- <dd> Da detalles de un término de <dt> -->
+                                <dd>
+                                    Inglés, Español, Francés, Alemán, Italiano, Japonés, Chino, Coreano
+                                </dd>
+                                <dt>Lanzamiento</dt>
+                                <dd>
+                                    26 de Julio del 2019
+                                </dd>
+                                <dt>Precio</dt>
+                                <dd>
+                                    $1,199
+                                </dd>
+                            </dl>
+                            <!-- <ul> Sirve para hacer una lista no ordenada -->
+                            <ul class="topInfoSpec_iconList">
+                                <!-- <li> Sirve para hacer una lista general -->
+                                <li class="clasificacion">
+                                    <a class="top_imageLink"
+                                        href="https://www.dof.gob.mx/nota_detalle.php?codigo=5606047&fecha=27/11/2020#gsc.tab=0">
+                                        <img src="img/40pxes-smec-b15.png" alt="SMECCV B15">
+                                    </a>
+                                </li>
+                                <li class="amiibo">
+                                    <a class="top_imageLink" href="https://www.nintendo.com/es-mx/amiibo/">
+                                        <img src="img/ico_amiibo.png" alt="amiibo">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="topInfoSpec_box">
+                        <ul class="topInfoSpec_buttonList">
+                            <li>
+                                <a class="top_imageLink"
+                                    href="https://www.nintendo.com/es-mx/store/games/nintendo-switch-games/">
+                                    <img src="img/btn_detalle.png" alt="MÁS JUEGOS">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="topInfoSpec_online">
+                            <div class="topInfoSpec_onlineIcon">
+                                <img src="img/ico_online.png" alt="Online">
+                            </div>
+                            <div class="topInfoSpec_onlineText">
+                                Este juego cuenta con características en línea, necesitarás una suscripción a
+                                <a class="topInfoSpec_onlineLink" href="https://www.nintendo.com/es-mx/switch/online/">
+                                    Nintendo Switch Online
+                                </a>
+                                .
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="nav_pagetop">
+            <div class="nav_pagetop_image js-pagetop">
+                <a href="#"><img src="img/pagetop-ES.png" alt=""></a>
+            </div>
+        </div>
+        <div class="nav_inner">
+            <p class="nav_logo">
+                <a href="index.html">
+                    <img src="img/250px-FETH_logo_dark.png" alt="FE3H">
+                </a>
+            </p>
+            <ul class="nav_list">
+                <li class="nav_list-top">
+                    <a href="index.html" alt="Principal">
+                        <img src="img/navi_inicio.png" alt="Principal">
+                    </a>
+                </li>
+                <li class="nav_list-introduction">
+                    <a href="index.html">
+                        <img src="img/navi_introduccion.png" alt="Introduccion">
+                    </a>
+                </li>
+                <li class="nav_list-system">
+                    <a href="index.html">
+                        <img src="img/navi_mecanicas.png" alt="Sistema">
+                    </a>
+                </li>
+                <li class="nav_list-class">
+                    <a href="index.html">
+                        <img src="img/navi_clases.png" alt="Clase">
+                    </a>
+                </li>
+                <li class="nav_list-personajes is-current">
+                    <a href="personajes.html">
+                        <img src="img/navi_personajes.png" alt="Personajes">
+                    </a>
+                </li>
+                <li class="nav_list-movie">
+                    <a href="videos.html">
+                        <img src="img/navi_videos.png" alt="Videos">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <div id="pie" style="text-align: center;">
+            <label>©2024 Guillermo Valenzuela (Work in progress, pre-alpha). Fire Emblem are trademarks of
+                Nintendo.</label>
+        </div>
+    </footer>
+    </div>
+</body>
+
+</html>

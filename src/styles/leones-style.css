@@ -1,0 +1,342 @@
+.wrapper {
+  min-width: 960px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  font-family: 'Noto Serif JP', serif;
+  min-height: calc(100vh - 40px);
+  background-color: #000;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  background: transparent;
+}
+
+.personaje-main_visual {
+  padding-top: 1186px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.is-main4 .personaje-main_bg::after {
+  background-image: url(https://www.nintendo.com/jp/switch/anvya/pc/assets/images/characters/bg_main4.png);
+}
+
+.personaje-main_bg::after {
+  background-repeat: no-repeat;
+}
+
+.personaje-main_bg::before,
+.personaje-main_bg::after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  background-position: center top;
+  position: absolute;
+  top: 0;
+}
+
+.personaje-main_bg::before {
+  background-image: url(https://www.nintendo.com/jp/switch/anvya/pc/assets/images/characters/bg_main.png);
+}
+
+.personaje-main_emblema::before {
+  display: block;
+  content: "";
+  padding-top: 57043500%;
+}
+
+.is-main4 .personaje-main_emblema {
+  background-image: url(https://www.nintendo.com/jp/switch/anvya/pc/assets/images/characters/emblem_main4.png);
+}
+
+.personaje-main_emblema {
+  width: 31.8448%;
+  max-width: 435px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.personaje_wrap {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1366px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.personaje-main4_imagen {
+  width: 1126px;
+  height: 1127px;
+  margin-right: -4.02635%;
+  padding-top: 2.19619%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.personaje_contenido {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1366px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.personaje-main_body {
+  margin-left: 3.14788%;
+  margin-right: auto;
+  padding-top: 5.85652%;
+  width: 42.45974%;
+}
+
+.has-line {
+  padding-bottom: 5.17241%;
+  background-image: url(https://www.nintendo.com/jp/switch/anvya/pc/assets/images/characters/line_main.png);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.personaje-main_category {
+  font-size: 25px;
+  margin-bottom: 3.44828%;
+  text-align: center;
+  color: #FFF;
+  font-weight: bold;
+  position: relative;
+}
+
+.personaje-main_nombre {
+  font-size: 50px;
+  margin-bottom: 3.44828%;
+  color: #FFF;
+  text-align: center;
+  line-height: 1.3;
+  font-weight: bold;
+}
+
+.personaje-main_nombre>span {
+  font-size: 25px;
+}
+
+.personaje-main_text {
+  font-size: 18px;
+  margin-top: 5.17241%;
+  color: #FFF;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.personaje_media {
+  margin-top: 3.57143%;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.personaje_media>li {
+  display: block;
+  content: "";
+  padding-top: 56.30499%;
+}
+
+.personaje_media-link {
+  width: 279.017px;
+  height: 157.1px;
+  margin-right: 76%;
+  padding-top: 42%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.personaje_media-link2 {
+  width: 279.017px;
+  height: 157.1px;
+  margin-right: 52%;
+  padding-top: 42%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.personajes-relacionados {
+  width: 300px;
+  height: 50px;
+  margin-right: 63%;
+  padding-top: 55%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.personaje-dedue {
+  width: 130px;
+  height: 178px;
+  margin-right: 82%;
+  padding-top: 60%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.personaje-marianne {
+  width: 130px;
+  height: 178px;
+  margin-right: 69%;
+  padding-top: 60%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.personaje-felix {
+  width: 130px;
+  height: 178px;
+  margin-right: 56%;
+  padding-top: 60%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.nav {
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+}
+
+.nav_pagetop {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 93.70425%;
+  max-width: 2000px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.nav_pagetop_image {
+  width: 146px;
+  margin-top: -73px;
+  width: 10.68814%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin-top: -5.34407%;
+  cursor: pointer;
+}
+
+.nav_inner::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.nav_inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 93.70425%;
+  max-width: 2000px;
+}
+
+.nav_logo {
+  width: 174px;
+  padding-top: 0.625%;
+  width: 13.59375%;
+  float: left;
+}
+
+.nav_logo a {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+.nav_list {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 79.6875%;
+  max-width: 1020px;
+}
+
+.nav_list>li {
+  width: 20%;
+  position: relative;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.nav_list>li>a::after {
+  display: block;
+  opacity: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #FFF;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition: all 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.nav_list>li>a {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+#pie {
+  padding-top: 30px;
+  padding-bottom: 25px;
+  background-color: black;
+  color: white;
+  position: relative;
+}
+
+* {
+  @import url('https://fonts.googleapis.com/css2?family=Average&display=swap') text-shadow: 2px 2px 5px black;
+  font-family: "Average", serif;
+}
